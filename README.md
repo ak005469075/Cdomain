@@ -6,7 +6,7 @@ python简单实现C段扫描，以及ip反查
 使用方式：  
 C段扫描：python Cdomain.py -c ip  
 单ip反查域名：python Cdomain.py -d ip  
-导入txt批量查域名，导入到ip_domains.txt：python Cdomain.py -l test.txt  
+读取txt文件批量查域名，导入到ip_domains.txt：python Cdomain.py -l test.txt  
 所有C段反查域名，并导出为到domains.txt：python Cdomain.py -all ip  
 
 实现过程中遇到的问题:  
